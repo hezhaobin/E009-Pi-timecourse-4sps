@@ -1,0 +1,164 @@
+
+======================================================
+
+    Data from the Yeast Gene Order Browser (YGOB)
+ 	        Version 7 (Aug2012)
+
+======================================================
+
+ (1) Pillars.tab [1 file]
+
+ This file lists all of the homology pillars used in 
+ YGOB with columns for each of the available 
+ positions in a pillar. Only genes that are turned 
+ ON in YGOB are included in this file (OFF genes are 
+ not considered to be real features, and hence listing 
+ them in pillars on their own would be redundant) 
+
+ These are, from left to right:
+
+   V. polyspora Position 1
+   T. phaffii Position 1
+   T. blattae Position 1
+   N. dairenensis Position 1
+   N. castellii Position 1
+   K. naganishii Position 1
+   K. africana Position 1
+   C. glabrata Position 1
+   S. bayanus var. uvarum Position 1
+   S. kudriavzevii Position 1
+   S. mikatae Position 1
+   S. cerevisiae Position 1
+   Ancestral Gene Order
+   Z. rouxii
+   T. delbrueckii
+   K. lactis
+   E. gossypii 
+   E. cymbalariae
+   L. kluyveri
+   L. thermotolerans
+   L. waltii
+   S. cerevisiae Position 2
+   S. mikatae Position 2
+   S. kudriavzevii Position 2
+   S. bayanus var. uvarum Position 2
+   C. glabrata Position 2
+   K. africana Position 2
+   K. naganishii Position 2
+   N. castellii Position 2
+   N. dairenensis Position 2
+   T. blattae Position 2
+   T. phaffii Position 2
+   V. polyspora Position 2
+
+ The order of the columns and the genes is ARBITRARY,
+ and does NOT indicate presence on an A or B "track",
+ or any syntenic relationships. This file just 
+ contains the underlying homology assignments used
+ in YGOB. For syntenic information for a locus or 
+ region of interest the '+' button in the bottom 
+ left hand corner of the YGOB interface will output 
+ syntenic information in a tab delimited text format. 
+ 
+
+ (2) *_genome.tab [21 files]  
+
+ These files are ordered lists of the genes in each 
+ of the genomes included in this version of YGOB. 
+ The columns contain, from left to right:
+
+ - NAME - unambiguous name used to identify the gene
+ - ORIENTATION - 0 = Crick Strand, 1 = Watson Strand
+ - START COORDINATE - 5' start of the co-ordinate range of the feature
+ - STOP COORDINATE - 3' end of the co-ordinate range of the feature
+ - ON/OFF - whether feature is displayed or not in YGOB
+ - CHROMOSOME/CONTIG/SCAFFOLD NUMBER - identifying number of source sequence
+ - SHORT NAME - the shorter name that will appear in the gene box on screen in YGOB
+ - COORDINATES - complete gene co-ordinates with intron/exon annotation and complement tag if appropriate
+ - NOTES - GenBank tags, SGD descriptions and notes for the locus
+
+ The only exception being the 'Ancestor_genome.tab' file as
+ the ancestral gene order has no underlying sequence and hence
+ no co-ordinates. In this case the columns are:
+
+ - NAME - unambiguous name used to identify the gene
+ - ORIENTATION - 0 = Crick Strand, 1 = Watson Strand (inferred from homologs)
+ - ON/OFF - whether feature is displayed or not in YGOB
+ - CHROMOSOME NUMBER - identifying number of ancestral chromosome
+ - SHORT NAME - the shorter name that will appear in the gene box on screen in YGOB
+
+
+ (3) *_sequence.fsa [20 files]  
+
+ The nucleotide sequences (in FASTA format) of the 
+ chromosomes, contigs or scaffolds (denoted by 'Chr', 
+ 'c' and 's' prefixes, respectively - which one is used 
+ depends on the particular genome assembly) from each of
+ the genomes featured in YGOB (the ancestral gene order 
+ has no underlying sequence).
+
+
+ (4) AA.fsa [1 file] 
+
+ Protein sequences (in FASTA format) for the protein coding 
+ genes in the above annotation files.
+
+
+ (5) NT.fsa [1 file] 
+
+ Nucleotide sequences (in FASTA format) for the protein coding 
+ genes in the above annotation files.
+
+
+ (6) tRNA.fsa [1 file]
+
+ Nucleotide sequences (in FASTA format) for the transfer RNA genes 
+ in the above annotation files
+
+
+ (7) rRNA.fsa [1 file]
+
+ Nucleotide sequences (in FASTA format) for the ribosomal RNAs in
+ the above annotation files
+
+
+ (8) ncRNA [1 file]
+
+ Nucleotide sequences (in FASTA format) for the non-coding 
+ RNA features in the above annotation files (only S. cerevisiae
+ ncRNA features are currently annotated)
+
+
+ (9) snRNA [1 file]
+
+ Nucleotide sequences (in FASTA format) for the small nuclear 
+ RNA features in the above annotation files (only S. cerevisiae
+ snRNA features are currently annotated)
+
+
+ (10) snoRNA [1 file]
+
+ Nucleotide sequences (in FASTA format) for the small nucleolar
+ RNA features in the above annotation files (only S. cerevisiae
+ snoRNA features are currently annotated)
+
+
+======================================================
+
+ Dr Kevin Byrne
+ August 2012 
+
+ Email:	ygob@ucd.ie
+ Web:	ygob.ucd.ie
+
+======================================================
+
+ Please read the paper for further details: 
+
+ The Yeast Gene Order Browser: combining curated 
+ homology and syntenic context reveals gene fate 
+ in polyploid species. 
+
+ Byrne KP, Wolfe KH. 
+ Genome Res. 2005 Oct;15(10):1456-61.
+

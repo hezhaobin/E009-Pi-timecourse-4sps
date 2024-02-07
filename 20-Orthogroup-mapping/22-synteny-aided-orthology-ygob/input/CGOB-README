@@ -1,0 +1,31 @@
+ Pillars.tab
+
+ This file lists all of the homology pillars used in CGOB
+ with columns for each of the available positions in a 
+ pillar. Only genes that are turned ON in CGOB are 
+ included in this file (OFF genes are not considered to be 
+ real features, and hence listing them in pillars on their
+ own would be redundant). 
+ The order of the columns and the genes is ARBITRARY
+ and just contains the underlying homology assignments used
+ in CGOB. 
+
+These are, from left to right:
+
+C. albicans SC5314
+C. albicans WO-1
+C. dubliniensis
+C. tropicalis
+C. tropicalis Version 1
+C. parapsilosis		
+C. metapsilosis
+C. orthopsilosis
+C. orthopsilosis Version 1
+L. elongisporus				
+D. hansenii							
+Sch. stipitis (Pichia stipitis)								
+M. guilliermondii (Candida guillermondii)			 
+C. lusitaniae   
+C. auris
+S. cerevisiae
+
