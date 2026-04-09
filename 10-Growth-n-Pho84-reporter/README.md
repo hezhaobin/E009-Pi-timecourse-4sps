@@ -1,0 +1,1 @@
+Chris and Varshu did a series of growth curves and Pho84 reporter dynamic studies in order to determine the time points for sampling the transcriptome. Note that the same absolute time may not be physiologically comparable across species, hence this study.

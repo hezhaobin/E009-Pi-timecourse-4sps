@@ -1,0 +1,1 @@
+More notes to come. Basically, we created a _PHO84pr_-GFP reporter in each of the four species and grew them in Pi-limiting conditions to quantify the induction of _PHO84_ over time. The reason to choose _PHO84_ as a reporter is motivated by Gurvich et al 2017, which showed that in _S. cerevisiae_, _PHO84_ induction predicts the onset of growth limitation.
